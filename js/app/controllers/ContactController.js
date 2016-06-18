@@ -14,9 +14,9 @@ function ContactController() {
         this.contacts.splice(index, 1);
     }
 
-    this.submit() = {
+    this.submitContact = function (){
       this.contacts.push({
-        name: this.name
+        name: this.name,
         phone: this.phone
       });
     }
