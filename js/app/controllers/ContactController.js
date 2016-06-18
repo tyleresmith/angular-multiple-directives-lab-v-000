@@ -13,6 +13,13 @@ function ContactController() {
     this.removeContact = function (index) {
         this.contacts.splice(index, 1);
     }
+
+    this.submit() = {
+      this.contacts.push({
+        name: this.name
+        phone: this.phone
+      });
+    }
 }
 
 angular
